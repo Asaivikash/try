@@ -1,0 +1,147 @@
+/*1 1. Sans Serif Fonts. 2 2. Serif Fonts​. 3 3. Cursive Fonts​. 4 4. Number Fonts​. 5 5. Outline Fonts.
+ 6 6. Vintage Fonts. 7 7. Modern Fonts. 8 How We Chose the Best Font for Websites.
+ 9 The 40 Best Fonts For Websites.axettae*/
+*{
+  margin: 0;
+  padding: 0;
+} 
+
+nav {
+  position: absolute;
+  width: 90%;
+  left: 5.0rem;
+  top: 3.0rem;
+}
+nav a {
+  text-decoration: none;
+  font-size: 2.0rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-right: 0.1rem; 
+  padding: 1.0rem 1.0rem;
+}
+a:hover{
+  color: #000;
+  background-color: #fff;
+  transition: 0.6s ease;
+}
+.show{
+  text-decoration: none;
+  float:right;
+  font-size: 2.0rem;
+  color: #fff;
+  margin: 0rem 1.0rem 0rem 1.0rem;
+   padding: 1.0rem 1.0rem;
+}
+.banner-area h2 {
+  padding: 1.0rem 2.0rem;
+  background-color:black;
+  font-family: outline;
+  text-transform: uppercase;
+  font-size: 6.5rem;
+  margin: 0 0 2.5rem; 
+}
+.banner-area q {
+  padding: 1.0rem 2.0rem;
+  color: linear-gradient(
+            to right, #283AB8, #8D379E,
+             #F13484, #FF605D,#FEA959,#FEE27A);
+background-color:black;
+  font-family: monospace;
+  font-size: 2.5rem;
+  margin: 0 0 2.5rem;
+}
+q:hover{
+  color: yellow;
+}
+
+.banner-area{
+  width: 100%;
+  height: 100vh;
+  background: url("4.jpg"); 
+  background-position: center;
+  -webkit-background-size:cover;
+  background-size:cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 2vw;
+  color: #fff;
+}
+.btn1{
+  text-decoration: none;
+  padding: 1.0rem 1.5rem;
+  color: white;
+  border:0.3rem solid #fff;
+  transition: 0.6s ease;
+  animation: animate 2s 1;
+  font-size: 1.5rem;
+  margin: 0rem 1.0rem 0rem 1.0rem;
+  font-weight: 900;
+float:right;
+}
+.btn1:hover{
+  background-color: #fff;
+  color: #000;
+}
+.btn{
+  text-decoration: none;
+  padding: 1.0rem 5.0rem;
+  color: #fff;
+  border:.0.3rem solid #fff;
+  transition: 0.6s ease;
+  animation: animate 2s 1;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.btn:hover{
+  background-color: #fff;
+  color: #000;
+}
+@keyframes animate {
+  0%{
+      transform: scale(0);
+  }
+  100%{
+      transform: scale(1);
+  }
+}
+h2{
+  animation: animate 2s 1;
+}
+
+q{
+  animation: animate 2s 1;
+}
+
+@media(max-with:1024)
+html{
+font-size: 62.5%;
+}
+@media (max-width: 600px){
+html{
+font-size:40%;
+}
+  nav {
+width: 100%;
+left: 10px;
+}
+  nav a {
+font-size: 11px;
+margin-right: 7px;
+}
+  .banner-area h2 {
+font-size: 28px;
+}
+}
+@media(max-width:998px)
+html{
+font-size:55%;
+}
+@media(max-width:768px)
+html{
+font-size:45%;
+}
